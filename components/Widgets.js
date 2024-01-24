@@ -4,6 +4,7 @@ import Image from "next/image";
 import TimeAgo from "timeago-react";
 
 function Widgets({articles}) {
+  console.log(articles)
   return (
     <div className="hidden xl:inline space-y-2">
         {/* News */}

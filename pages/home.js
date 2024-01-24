@@ -42,14 +42,14 @@ function Home({providers}) {
             <HeaderLink Icon={OndemandVideoSharpIcon} text="Learning"/>
             <HeaderLink Icon={BusinessCenterIcon} text="Jobs"/>
           </div>
-          <div className="pl-4">
+            <div className="pl-4">
                 <button
                   className="text-blue-700 font-semibold rounded-full border border-blue-700 px-5 py-1.5 transition-all hover:border-2"
                   onClick={() => signIn('google')}
                 >
                   SignIn
                 </button>
-              </div>
+            </div>
         </div>
       </header>
       <main className='flex flex-col xl:flex-row items-center max-w-screen-lg mx-auto'>
